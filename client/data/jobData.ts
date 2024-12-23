@@ -1,0 +1,126 @@
+export interface JobData {
+  job_id: string;
+  job_employment_type: "Hybrid" | "Remote" | string;
+  job_title: string;
+  job_location: string;
+  job_description: string;
+  job_requirements: string[];
+  job_responsibilities: string[];
+}
+
+export const jobData: JobData[] = [
+  {
+    job_id: "JviQ_0mnlXoAAAAAAAAAAA==",
+    job_employment_type: "Hybrid",
+    job_title: "Web developer",
+    job_location: "Qatar",
+    job_description:
+      "Responsibilities :\n• Develop and maintain web applications using modern web technologies and programming languages\n• Work with cross-functional teams to understand business requirements and develop appropriate solutions\n• Write well-designed, testable, and efficient code using appropriate software development methodologies\n• Develop and maintain database schemas, queries, and stored procedures in SQL databases\n• Work with PLC logic and interface with web applications\n• Collaborate with front-end developers to integrate user-facing elements with server-side logic\n• Ensure the technical feasibility of UI / UX designs\n• Optimize web applications for maximum speed and scalability\n• Troubleshoot and debug web applications as necessary\n• Stay up-to-date with emerging trends and technologies in web development\n\nRequirements :\n• Bachelor's degree in Computer Science, Information Technology or related field\n• Proven experience in full stack web development with a focus on server-side technologies\n• Strong experience with Windows Server, SQL databases, and PLC logic\n• Proficient understanding of web markup, including HTML5, CSS3, and JavaScript frameworks (e.g. AngularJS, ReactJS)\n• Experience with web development frameworks such as ASP.NET , Node.js, Ruby on Rails, or Django\n• Knowledge of at least one server-side programming language such as C#, Java, or Python\n• Experience with version control systems such as Git\n• Strong analytical and problem-solving skills\n• Excellent communication and collaboration skills\n• Ability to work independently as well as in a team-oriented environment\n• Bilingual English and Korean\n\nIf you are an experienced Full Stack Web Developer with a passion for developing cutting-edge web applications and a desire to work with a dynamic team, please apply for this position.\n\nWe offer a competitive salary, benefits package, and opportunities for professional growth and advancement.\n\nPowered by JazzHR\n\nLast updated : 2023-06-01",
+    job_requirements: [
+      "Bachelor's degree in Computer Science, Information Technology or related field",
+      "Proven experience in full stack web development with a focus on server-side technologies",
+      "Strong experience with Windows Server, SQL databases, and PLC logic",
+      "Proficient understanding of web markup, including HTML5, CSS3, and JavaScript frameworks (e.g",
+      "AngularJS, ReactJS)",
+      "Experience with web development frameworks such as ASP",
+      "NET , Node.js, Ruby on Rails, or Django",
+      "Knowledge of at least one server-side programming language such as C#, Java, or Python",
+      "Experience with version control systems such as Git",
+      "Strong analytical and problem-solving skills",
+      "Excellent communication and collaboration skills",
+      "Ability to work independently as well as in a team-oriented environment",
+      "Bilingual English and Korean",
+    ],
+    job_responsibilities: [
+      "Develop and maintain web applications using modern web technologies and programming languages",
+      "Work with cross-functional teams to understand business requirements and develop appropriate solutions",
+      "Write well-designed, testable, and efficient code using appropriate software development methodologies",
+      "Develop and maintain database schemas, queries, and stored procedures in SQL databases",
+      "Work with PLC logic and interface with web applications",
+      "Collaborate with front-end developers to integrate user-facing elements with server-side logic",
+      "Ensure the technical feasibility of UI / UX designs",
+      "Optimize web applications for maximum speed and scalability",
+      "Troubleshoot and debug web applications as necessary",
+      "Stay up-to-date with emerging trends and technologies in web development",
+    ],
+  },
+  {
+    job_id: "DCi-37AXFUgAAAAAAAAAAA==",
+    job_employment_type: "Remote",
+    job_title: "Front End Web Developer",
+    job_description:
+      "At NextAfter, web developers are critical in allowing our nonprofit clients to escape the shackles of poorly designed software. Out-of-the-box software solutions rarely allow nonprofits the flexibility necessary to track every donor action or to make design tweaks to improve donor conversion. That is where you come in.\n\nIn this role, you will be charged with helping organizations make websites do things they were never designed to do. You’ll apply your HTML, Javascript, and CSS skills toward crafting unique solutions to solve complex problems across a variety of different web platforms.\n\nBecause NextAfter works solely with nonprofits to help them raise money and awareness for their causes, it’s also essential that every member on our team desires to positively impact the world around them and cares about the people they’re serving alongside and those at the organizations we help.\n\nThe Front End Web Developer supports NextAfter’s efforts to discover what drives donors to give through setting up A/B experiments and optimizing the tracking of various advertising efforts.\n\nEssential Duties and Responsibilities include the following. Other duties may be assigned.\n• Setting up A/B experiments utilizing VWO, Optimizely, and similiar platforms. This will involve writing Javascript, HTML, and CSS to override existing page layout and design.\n• Implementing enhanced tracking to monitor the fundraising and marketing efforts. This is normally done with platforms such as Google Tag Manager, Google Analytics, Facebook, Google Ads, and other advertising platforms.\n• Configuring marketing software such as Mailchimp, Hubspot, and similar tools to serve the needs of the nonprofit clients that we work with. This involves setting up templates, implementing tracking, and making configuration changes based upon requirements.\n• Working with client service specialists to devise strategies and tactics that improve our clients’ performance.\n\nQualifications and Skills:\n• Advanced knowledge of Javascript (ability to code without relying on outside libraries such as Vue.js, jQuery, React.js, etc.)\n• Experience with HTML and CSS to craft web pages\n• Knowledge of marketing platforms such as Hubspot, MailChimp, and Pardot\n• Experience implementing digital analytics platforms such as Google Analytics and Facebook\n• Knowledge of A/B testing and the associated platforms such as VWO\n\nEducation and Experience\n• Bachelor’s degree (or comparable experience in a similar role)\n• Training in web development either from a Bachelor’s degree or coding bootcamp",
+    job_location: "India",
+    job_requirements: [
+      "Advanced knowledge of Javascript (ability to code without relying on outside libraries such as Vue.js, jQuery, React.js, etc.)",
+      "Experience with HTML and CSS to craft web pages",
+      "Knowledge of marketing platforms such as Hubspot, MailChimp, and Pardot",
+      "Experience implementing digital analytics platforms such as Google Analytics and Facebook",
+      "Knowledge of A/B testing and the associated platforms such as VWO",
+      "Bachelor’s degree (or comparable experience in a similar role)",
+      "Training in web development either from a Bachelor’s degree or coding bootcamp",
+    ],
+    job_responsibilities: [
+      "In this role, you will be charged with helping organizations make websites do things they were never designed to do",
+      "You’ll apply your HTML, Javascript, and CSS skills toward crafting unique solutions to solve complex problems across a variety of different web platforms",
+      "Setting up A/B experiments utilizing VWO, Optimizely, and similiar platforms",
+      "This will involve writing Javascript, HTML, and CSS to override existing page layout and design",
+      "Implementing enhanced tracking to monitor the fundraising and marketing efforts",
+      "This is normally done with platforms such as Google Tag Manager, Google Analytics, Facebook, Google Ads, and other advertising platforms",
+      "Configuring marketing software such as Mailchimp, Hubspot, and similar tools to serve the needs of the nonprofit clients that we work with",
+      "This involves setting up templates, implementing tracking, and making configuration changes based upon requirements",
+      "Working with client service specialists to devise strategies and tactics that improve our clients’ performance",
+    ],
+  },
+  {
+    job_id: "RmMWVIxJKacAAAAAAAAAAA==",
+    job_employment_type: "Hybrid",
+    job_title: "Senior React Front-End Web Developer",
+    job_description:
+      "Senior React Front-End Web Developer\n\nTargeted Start Date: ASAP\n\nLocation:\n\non site in the PCS Houston Regional Office (this is not a remote role, but has a flexible work schedule)\n\nImmediate Supervisor:\nDirector of Development\n\nCompany Background\n\nPCS Software, Inc. is an AI platform for the transportation logistics market space providing the trucking industry's most effective transportation management platform (TMP) to improve fleet management and delivery systems and increase profits for our customers. Through innovation and invention, our software individualizes work routines, consolidates workflows, and streamlines management controls to improve accountability, transparency, and eliminate costly and redundant manual processes.\n\nTrucking companies and freight brokers trust PCS to optimize their dispatch, accounting, and fleet operations. TL, LTL, Intermodal, and freight brokerage services use our TMP to automate operations, easily access information, and reduce inefficiencies to maximize sales and revenue. Founded in 1997 and headquartered in Houston, Texas, with regional offices now located across North America, PCS Software is the leading developer of hosted software solutions designed specifically for the ground transportation industry.\n\nJob\n\nDescription:\n\nSenior React Front-End Web Developer\n\nRole and\n\nResponsibilities Technical resource responsible for front-end development using web technologies which include, but are not limited to: HTML, CSS, JavaScript, and React/Redux.\n\nBuilding reusable components and front-end libraries for future use\n\nResponsible for translating designs and wireframes into high quality code\n\nOptimizing components for maximum performance across a vast array of web-capable devices and browse\n\nEnsure technical feasibility of UI/UX designs\n\nChampion requirement evaluation and impact analysis\n\nParticipate in code reviews and share best practices periodically\n\nContinuous integration with Jenkins CI\n\nParticipate in full SDLC, including meetings, interactive development, estimations, and design sessions\n\nWork in a collaborative environment with other developers and QA team members, product designers, product managers, and off-site 3rd party vendor team members\n\nDeliver code solutions built for performance, availability, and scalability optimizing applications for maximum speed and scalability\n\nCode and unit test functionality and/or integrations between systems\n\nSupport and troubleshoot issues (process and system), identify the root cause, and proactively implement sustainable corrective actions\n\nBuilding reusable code and libraries for future use\n\nStay current with the fast-changing landscape of browser-based application development\n\nMonitor the development of, evaluate, and recommend new technologies/approaches to the development pipeline\n\nMentor other developers (and interns occasionally) to increase the overall skill level of the team and quality of team output\n\nReview code produced by other developers for acceptance into the repository\n\nDevelop a thorough understanding of policies, procedures, and safety rules\n\nDuties may change;\nTeam Members may be required to perform other duties as assigned\n\nWork Experience Required\n\n3+ years of experience developing and deploying large-scale websites and website content or demonstrated skill level in previous positions\n\n3+ years of experience Design and developing application in React.\n\nJs/Redux.\n\n3+ years of experience Design and developing application in JavaScript technologies.\n\nExperience with a 500+ million revenue e-commerce retailer preferred\n\nProven understanding of design patterns, reference architectures, industry standards, broad technical knowledge, and architectural principles is necessary\n\nDemonstrated ability to provide and recommend innovative ideas with the skill to align projects with enterprise strategy is needed\n\nAbility to work efficiently and accurately under pressure, meet deadlines, present a professional demeanor, and work well independently is essential\n\nAbility to estimate financial impact of technical architecture alternatives and apply multiple technical solutions to business problems is vital\n\nTechnical Knowledge and Skills Required Experience building responsive websites using React.\n\nJS and Node.\n\nJS\n\nExperience in client-side scripting, libraries, and structures which include HTML5, CSS3, JavaScript, XML, and JSON\n\nUnderstanding of Content Stack and Content Stack integration with React.\n\nJs\n\nThorough understanding of React.\n\nJs and its core principles\n\nExperience with popular React.js workflows (such as Flux or Redux)\n\nStrong proficiency in JavaScript, including DOM manipulation and the JavaScript object model\n\nExperience with common front-end development tools such as Babel, Webpack, NPM, etc.\n\nExperience writing unit tests for Java Script\n\nExperience with Responsive Web Design\n\nKnowledge of modern authorization mechanisms, such as JSON Web Token\n\nFamiliarity with modern front-end build pipelines and tools\n\nAbility to understand business requirements and translate them into technical requirements\n\nA knack for…",
+    job_location: "UAE",
+    job_requirements: [
+      "3+ years of experience developing and deploying large-scale websites and website content or demonstrated skill level in previous positions",
+      "3+ years of experience Design and developing application in JavaScript technologies",
+      "Proven understanding of design patterns, reference architectures, industry standards, broad technical knowledge, and architectural principles is necessary",
+      "Demonstrated ability to provide and recommend innovative ideas with the skill to align projects with enterprise strategy is needed",
+      "Ability to work efficiently and accurately under pressure, meet deadlines, present a professional demeanor, and work well independently is essential",
+      "Ability to estimate financial impact of technical architecture alternatives and apply multiple technical solutions to business problems is vital",
+      "Technical Knowledge and Skills Required Experience building responsive websites using React",
+      "Experience in client-side scripting, libraries, and structures which include HTML5, CSS3, JavaScript, XML, and JSON",
+      "Understanding of Content Stack and Content Stack integration with React",
+      "Thorough understanding of React",
+      "Js and its core principles",
+      "Experience with popular React.js workflows (such as Flux or Redux)",
+      "Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model",
+      "Experience with common front-end development tools such as Babel, Webpack, NPM, etc",
+      "Experience writing unit tests for Java Script",
+      "Experience with Responsive Web Design",
+      "Knowledge of modern authorization mechanisms, such as JSON Web Token",
+      "Familiarity with modern front-end build pipelines and tools",
+      "Ability to understand business requirements and translate them into technical requirements",
+    ],
+    job_responsibilities: [
+      "Trucking companies and freight brokers trust PCS to optimize their dispatch, accounting, and fleet operations",
+      "Responsibilities Technical resource responsible for front-end development using web technologies which include, but are not limited to: HTML, CSS, JavaScript, and React/Redux",
+      "Building reusable components and front-end libraries for future use",
+      "Responsible for translating designs and wireframes into high quality code",
+      "Optimizing components for maximum performance across a vast array of web-capable devices and browse",
+      "Ensure technical feasibility of UI/UX designs",
+      "Champion requirement evaluation and impact analysis",
+      "Participate in code reviews and share best practices periodically",
+      "Continuous integration with Jenkins CI",
+      "Participate in full SDLC, including meetings, interactive development, estimations, and design sessions",
+      "Work in a collaborative environment with other developers and QA team members, product designers, product managers, and off-site 3rd party vendor team members",
+      "Deliver code solutions built for performance, availability, and scalability optimizing applications for maximum speed and scalability",
+      "Code and unit test functionality and/or integrations between systems",
+      "Support and troubleshoot issues (process and system), identify the root cause, and proactively implement sustainable corrective actions",
+      "Stay current with the fast-changing landscape of browser-based application development",
+      "Monitor the development of, evaluate, and recommend new technologies/approaches to the development pipeline",
+      "Mentor other developers (and interns occasionally) to increase the overall skill level of the team and quality of team output",
+      "Review code produced by other developers for acceptance into the repository",
+      "Develop a thorough understanding of policies, procedures, and safety rules",
+      "Team Members may be required to perform other duties as assigned",
+    ],
+  },
+];
