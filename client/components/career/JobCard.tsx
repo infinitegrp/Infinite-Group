@@ -23,7 +23,7 @@ const JobCard: FC<JobCardProps> = ({ isVisible, data, onClose }) => {
         .share({
           title: "Apply today & connect with your future!",
           text: "Discover this opportunity at Infinite Group.",
-          url: `https://www.infinite-grp.com/careers?job_id=${data?._id}`,
+          url: `https://www.infinite-grp.com/career?job_id=${data?._id}`,
         })
         .catch((err) => console.error("Error sharing: ", err));
     } else {
@@ -32,7 +32,7 @@ const JobCard: FC<JobCardProps> = ({ isVisible, data, onClose }) => {
   };
 
   const handleCopy = () => {
-    const url = `https://www.infinite-grp.com/careers?job_id=${data?._id}`;
+    const url = `https://www.infinite-grp.com/career?job_id=${data?._id}`;
     navigator.clipboard
       .writeText(url)
       .then(() => {
