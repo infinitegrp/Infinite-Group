@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0 lg:w-2/5 px-12 max-w-xl pb-6">
             <Link href="/" className="flex flex-col items-center">
               <Image
-                src="/assets/primarylogo.png"
+                src="/logo.svg"
                 alt="Infinite Group Logo"
                 width={220}
                 height={100}
