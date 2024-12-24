@@ -3,9 +3,17 @@ import React from "react";
 
 const VideoSection: React.FC = () => {
   return (
-    <div className="relative grid grid-rows-[20px_1fr_20px] items-center min-h-[40vh] xl:min-h-[60vh] overflow-hidden text-white bg-black">
+    <div className="relative grid grid-rows-[20px_1fr_20px] items-center min-h-[230px] md:min-h-[40vh] xl:min-h-[60vh] overflow-hidden text-white bg-black">
       <video
-        className="absolute inset-0 w-full h-full object-contain z-0"
+        className="hidden md:flex absolute inset-0 w-full h-full object-cover z-0"
+        src="/assets/about-infinite-grp.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <video
+        className="md:hidden absolute inset-0 w-full h-full object-cover z-0"
         src="/assets/about-infinite-group.mp4"
         autoPlay
         loop
