@@ -38,7 +38,7 @@ const ContactSection: React.FC = () => {
           </Link>
           <Link
             href={"mailto:info@infinite-grp.com"}
-            className="flex gap-4 max-w-md text-sm md:text-base z-10"
+            className="flex gap-4 max-w-md text-sm md:text-base z-10 font-sans"
           >
             <Icons.email />
             info@infinite-grp.com

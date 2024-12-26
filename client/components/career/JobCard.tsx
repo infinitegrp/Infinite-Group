@@ -143,13 +143,6 @@ const JobCard: FC<JobCardProps> = ({ isVisible, data, onClose }) => {
                   </ul>
                 </>
               )}
-              <h3 className="text-lg font-bold">
-                Apply Today & Connect with your Future!
-              </h3>
-              <p className="text-sm text-gray-500">
-                Infinite Group of companies provides Equal Opportunity Employer
-                (Minorities/Female/Disabled/Veterans).
-              </p>
               <CustomButton type="primary" onClick={() => setForm(true)}>
                 Apply Now
               </CustomButton>
