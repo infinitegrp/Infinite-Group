@@ -99,10 +99,10 @@ const Footer: React.FC = () => {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 gap-4 text-sm text-stone-500">
-            <Link href="#" className="hover:underline">
+            <Link href="/privacy-policy" className="hover:underline">
               Privacy Policy
             </Link>
-            <Link href="#" className="hover:underline">
+            <Link href="/terms-and-conditions" className="hover:underline">
               Terms &amp; Conditions
             </Link>
           </div>
